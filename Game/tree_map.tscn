@@ -1,9 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://bxfc3ucwm5s4c"]
+[gd_scene load_steps=4 format=3 uid="uid://baqqrgfxfdj75"]
 
-[ext_resource type="Texture2D" uid="uid://butwc7g8cxfib" path="res://tileset/tileset.png" id="1_gr4gy"]
+[ext_resource type="Texture2D" uid="uid://butwc7g8cxfib" path="res://tileset/tileset.png" id="1_seie4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pmtkr"]
-texture = ExtResource("1_gr4gy")
+texture = ExtResource("1_seie4")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -198,7 +198,7 @@ texture = ExtResource("1_gr4gy")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_pmtkr")
 
-[node name="TileMap" type="TileMap"]
+[node name="Main-tile" type="TileMap"]
 tile_set = SubResource("TileSet_lucxl")
 rendering_quadrant_size = 32
 format = 2

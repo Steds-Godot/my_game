@@ -1,8 +1,9 @@
-[gd_scene load_steps=42 format=3 uid="uid://bif2uubw6xwei"]
+[gd_scene load_steps=45 format=3 uid="uid://bif2uubw6xwei"]
 
 [ext_resource type="Script" path="res://Player/player.gd" id="1_sinbc"]
 [ext_resource type="Texture2D" uid="uid://b66n67q3dwtld" path="res://player_assets/Colour2/Outline/120x80_PNGSheets/_AttackNoMovement.png" id="2_txwi2"]
 [ext_resource type="Texture2D" uid="uid://ssagfdolwpp6" path="res://player_assets/Colour2/Outline/120x80_PNGSheets/_Fall.png" id="2_w2gv2"]
+[ext_resource type="Texture2D" uid="uid://duccuodpsup5t" path="res://player_assets/Colour2/Outline/120x80_PNGSheets/_Dash.png" id="3_fjpc1"]
 [ext_resource type="Texture2D" uid="uid://bh124flf0wa7u" path="res://player_assets/Colour2/Outline/120x80_PNGSheets/_Idle.png" id="3_sdcoh"]
 [ext_resource type="Texture2D" uid="uid://depg8ctxvxtev" path="res://player_assets/Colour2/Outline/120x80_PNGSheets/_Jump.png" id="4_tsp6i"]
 [ext_resource type="Texture2D" uid="uid://btl6m0bl4frix" path="res://player_assets/Colour2/Outline/120x80_PNGSheets/_JumpFallInbetween.png" id="5_pbg3k"]
@@ -23,6 +24,14 @@ region = Rect2(240, 40, 120, 40)
 [sub_resource type="AtlasTexture" id="AtlasTexture_8esuw"]
 atlas = ExtResource("2_txwi2")
 region = Rect2(360, 40, 120, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xt31g"]
+atlas = ExtResource("3_fjpc1")
+region = Rect2(0, 40, 120, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t2lcb"]
+atlas = ExtResource("3_fjpc1")
+region = Rect2(120, 40, 120, 40)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jpqy4"]
 atlas = ExtResource("3_sdcoh")
@@ -155,6 +164,17 @@ animations = [{
 "name": &"attack",
 "speed": 15.0
 }, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xt31g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t2lcb")
+}],
+"loop": true,
+"name": &"dash",
+"speed": 15.0
+}, {
 "frames": [],
 "loop": true,
 "name": &"default",
@@ -270,8 +290,10 @@ script = ExtResource("1_sinbc")
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ic1uf")
-animation = &"attack"
+animation = &"dash"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-5, 2)
 shape = SubResource("CapsuleShape2D_7ro6q")
+
+[node name="DashTimer" type="Timer" parent="."]

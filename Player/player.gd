@@ -79,5 +79,6 @@ func start_dash():
 	$DashTimer.connect("timeout", stop_dash)
 	$DashTimer.start()
 	
-func stop_dash():
+	
+func stop_dash(): 
 	is_dashing = false

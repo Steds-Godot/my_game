@@ -297,3 +297,6 @@ position = Vector2(-5, 2)
 shape = SubResource("CapsuleShape2D_7ro6q")
 
 [node name="DashTimer" type="Timer" parent="."]
+wait_time = 0.25
+
+[node name="DashCooldown" type="Timer" parent="."]

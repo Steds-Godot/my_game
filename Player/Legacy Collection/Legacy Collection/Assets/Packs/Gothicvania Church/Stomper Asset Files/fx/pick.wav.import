@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cpgot3k58xr0"
+path="res://.godot/imported/pick.wav-869338cb68d8f57bca6a20d783bfc1c6.sample"
+
+[deps]
+
+source_file="res://Player/Legacy Collection/Legacy Collection/Assets/Packs/Gothicvania Church/Stomper Asset Files/fx/pick.wav"
+dest_files=["res://.godot/imported/pick.wav-869338cb68d8f57bca6a20d783bfc1c6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

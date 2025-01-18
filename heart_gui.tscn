@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmv2vcxvkp3ar"]
+
+[ext_resource type="Texture2D" uid="uid://dfpnd3ya8k7na" path="res://Game/J_Ur_u.png" id="1_e83x1"]
+
+[node name="HeartGUI" type="Panel"]
+self_modulate = Color(0.996078, 0.996078, 0.996078, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_e83x1")
+centered = false

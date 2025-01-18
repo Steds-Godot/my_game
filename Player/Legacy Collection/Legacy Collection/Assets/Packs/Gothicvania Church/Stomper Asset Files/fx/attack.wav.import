@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dq506wx1b55l1"
+path="res://.godot/imported/attack.wav-04260c2320b15833253efb490a3c6c0b.sample"
+
+[deps]
+
+source_file="res://Player/Legacy Collection/Legacy Collection/Assets/Packs/Gothicvania Church/Stomper Asset Files/fx/attack.wav"
+dest_files=["res://.godot/imported/attack.wav-04260c2320b15833253efb490a3c6c0b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

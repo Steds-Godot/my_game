@@ -4,14 +4,20 @@ const acceleration = 3
 const SPEED = 120.0
 const JUMP_VELOCITY = -270.0
 
-
+var lives : int = 3
 var counter : int = 1
 var can_move : bool = true
 var is_dashing : bool = false
 var DASH_SPEED = 1.5
+var invulnerable : bool = false
 
 @onready var sprite_2d: AnimatedSprite2D = $Sprite2D
+@onready var collision_shape_2d: CollisionShape2D = $CollisionShape2D
+@onready var health: Control = $"../UI/Health"
 
+
+func _ready() -> void:
+	pass
 
 func _process(delta: float) -> void:
 	if Input.is_action_pressed("attack"):
@@ -19,7 +25,11 @@ func _process(delta: float) -> void:
 		sprite_2d.play("attack")
 	else:
 		can_move = true
-
+	
+	if lives == 0:
+		get_tree().reload_current_scene()
+		lives = 3
+	
 
 
 func _physics_process(delta: float) -> void:
@@ -82,3 +92,8 @@ func start_dash():
 	
 func stop_dash(): 
 	is_dashing = false
+
+
+func lose_life(_damage : int):
+	lives -= _damage
+	invulnerable = true

@@ -3,11 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://xcclyobv6pv5"
-valid=false
+path="res://.godot/imported/._water-splash.wav-9085471915a07d16b35a88f3a585fb22.sample"
 
 [deps]
 
 source_file="res://Player/Legacy Collection/__MACOSX/Legacy Collection/Assets/Packs/Sewers pack files/Sounds/._water-splash.wav"
+dest_files=["res://.godot/imported/._water-splash.wav-9085471915a07d16b35a88f3a585fb22.sample"]
 
 [params]
 

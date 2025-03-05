@@ -3,11 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b56i6ygxx7iyy"
-valid=false
+path="res://.godot/imported/._enemy_death.wav-fa02d45bc0f35a8b1b8507f64ad32e14.sample"
 
 [deps]
 
 source_file="res://Player/Legacy Collection/__MACOSX/Legacy Collection/Assets/Packs/Gothicvania Church/Stomper Asset Files/fx/._enemy_death.wav"
+dest_files=["res://.godot/imported/._enemy_death.wav-fa02d45bc0f35a8b1b8507f64ad32e14.sample"]
 
 [params]
 

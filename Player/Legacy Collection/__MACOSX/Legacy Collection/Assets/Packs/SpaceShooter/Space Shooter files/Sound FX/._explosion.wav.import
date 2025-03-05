@@ -3,11 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://kjmpcb6tsmba"
-valid=false
+path="res://.godot/imported/._explosion.wav-8e4f8674514d6991d8f2ce28e9ea7d46.sample"
 
 [deps]
 
 source_file="res://Player/Legacy Collection/__MACOSX/Legacy Collection/Assets/Packs/SpaceShooter/Space Shooter files/Sound FX/._explosion.wav"
+dest_files=["res://.godot/imported/._explosion.wav-8e4f8674514d6991d8f2ce28e9ea7d46.sample"]
 
 [params]
 

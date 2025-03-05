@@ -3,11 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://c1ysbie6gajlc"
-valid=false
+path="res://.godot/imported/._laser.wav-1f75bb9ae28ef846e80d7e6d8d2d70ab.sample"
 
 [deps]
 
 source_file="res://Player/Legacy Collection/__MACOSX/Legacy Collection/Assets/Packs/grotto_escape_pack/Base pack/sounds/._laser.wav"
+dest_files=["res://.godot/imported/._laser.wav-1f75bb9ae28ef846e80d7e6d8d2d70ab.sample"]
 
 [params]
 

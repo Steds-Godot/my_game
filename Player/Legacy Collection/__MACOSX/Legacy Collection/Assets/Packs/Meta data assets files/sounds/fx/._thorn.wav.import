@@ -3,11 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://j0wgeptr2qes"
-valid=false
+path="res://.godot/imported/._thorn.wav-25209abcba373bae6355ea3186e038b2.sample"
 
 [deps]
 
 source_file="res://Player/Legacy Collection/__MACOSX/Legacy Collection/Assets/Packs/Meta data assets files/sounds/fx/._thorn.wav"
+dest_files=["res://.godot/imported/._thorn.wav-25209abcba373bae6355ea3186e038b2.sample"]
 
 [params]
 

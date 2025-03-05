@@ -3,11 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bdkn6ttou8poq"
-valid=false
+path="res://.godot/imported/._player-death.wav-4c025d481c066b89d7037b97986c96a7.sample"
 
 [deps]
 
 source_file="res://Player/Legacy Collection/__MACOSX/Legacy Collection/Assets/Packs/Sewers pack files/Sounds/._player-death.wav"
+dest_files=["res://.godot/imported/._player-death.wav-4c025d481c066b89d7037b97986c96a7.sample"]
 
 [params]
 

@@ -3,11 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cj187l8t8joqc"
-valid=false
+path="res://.godot/imported/._explosion.wav-a42b270497dc1dcc2712f91e2465d08c.sample"
 
 [deps]
 
 source_file="res://Player/Legacy Collection/__MACOSX/Legacy Collection/Assets/Packs/Sewers pack files/Sounds/._explosion.wav"
+dest_files=["res://.godot/imported/._explosion.wav-a42b270497dc1dcc2712f91e2465d08c.sample"]
 
 [params]
 

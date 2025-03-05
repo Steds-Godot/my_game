@@ -3,11 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://ckempdknnoti8"
-valid=false
+path="res://.godot/imported/._enter.wav-6c1101b90e9a6b25f1c0f6e187400e03.sample"
 
 [deps]
 
 source_file="res://Player/Legacy Collection/__MACOSX/Legacy Collection/Assets/Packs/Meta data assets files/sounds/fx/._enter.wav"
+dest_files=["res://.godot/imported/._enter.wav-6c1101b90e9a6b25f1c0f6e187400e03.sample"]
 
 [params]
 

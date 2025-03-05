@@ -3,11 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://btq633psilv4f"
-valid=false
+path="res://.godot/imported/._shot 1.wav-c933d206cc81eccb1e0b4bf83df86db8.sample"
 
 [deps]
 
 source_file="res://Player/Legacy Collection/__MACOSX/Legacy Collection/Assets/Packs/SpaceShooter/Space Shooter files/Sound FX/._shot 1.wav"
+dest_files=["res://.godot/imported/._shot 1.wav-c933d206cc81eccb1e0b4bf83df86db8.sample"]
 
 [params]
 

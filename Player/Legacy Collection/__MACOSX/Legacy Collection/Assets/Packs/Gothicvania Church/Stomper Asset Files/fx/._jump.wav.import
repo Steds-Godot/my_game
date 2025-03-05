@@ -3,11 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://ci1mdri0sep3x"
-valid=false
+path="res://.godot/imported/._jump.wav-243803741f9ce7ac4ad7b3e586e38a05.sample"
 
 [deps]
 
 source_file="res://Player/Legacy Collection/__MACOSX/Legacy Collection/Assets/Packs/Gothicvania Church/Stomper Asset Files/fx/._jump.wav"
+dest_files=["res://.godot/imported/._jump.wav-243803741f9ce7ac4ad7b3e586e38a05.sample"]
 
 [params]
 

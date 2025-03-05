@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://bmkimxtf57tpy"]
 
-[ext_resource type="Script" path="res://animation_enemy.gd" id="1_gbfbn"]
+[ext_resource type="Script" uid="uid://dkifnhrinf3xp" path="res://animation_enemy.gd" id="1_gbfbn"]
 [ext_resource type="Texture2D" uid="uid://cpmetk8788jlt" path="res://tileset/Legacy Collection/Legacy Collection/Assets/Characters/enemy-ghost/Spritesheets/particles.png" id="1_oeoue"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_hrtup"]
@@ -105,9 +105,9 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_6ddy5"]
 _data = {
-"RESET": SubResource("Animation_xego1"),
-"idle": SubResource("Animation_ofc6p"),
-"run": SubResource("Animation_6crmu")
+&"RESET": SubResource("Animation_xego1"),
+&"idle": SubResource("Animation_ofc6p"),
+&"run": SubResource("Animation_6crmu")
 }
 
 [node name="Animation_enemy" type="Node2D"]

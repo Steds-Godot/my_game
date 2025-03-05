@@ -3,11 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cn46bmsyr2ty3"
-valid=false
+path="res://.godot/imported/._break.wav-84e207a66845af77bcc76d0544303709.sample"
 
 [deps]
 
 source_file="res://Player/Legacy Collection/__MACOSX/Legacy Collection/Assets/Packs/Meta data assets files/sounds/fx/._break.wav"
+dest_files=["res://.godot/imported/._break.wav-84e207a66845af77bcc76d0544303709.sample"]
 
 [params]
 
